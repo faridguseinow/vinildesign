@@ -1,0 +1,24 @@
+{
+  "Metadata": {"title": "Avtomobil stilinq studiyası", "description": "Bakıda avtomobil vinil üzləmə və stilinq studiyasının kinematoqrafik rəqəmsal təcrübəsi."},
+  "Home": {
+    "nav": {"projects": "Layihələr", "services": "Xidmətlər", "about": "Haqqımızda", "contact": "Əlaqə", "menu": "Menyu", "close": "Bağla"},
+    "hero": {"eyebrow": "Avtomobil stilinq studiyası", "titleTop": "Orijinaldan", "titleBottom": "daha irəli.", "subtitle": "Dəqiqlik. Xarakter. Performans.", "primary": "İşlərimizə baxın", "secondary": "Əlaqə saxlayın", "location": "Bakı — Azərbaycan", "scroll": "Davam etmək üçün sürüşdürün"},
+    "statement": {"index": "01 / Fəlsəfə", "lineOne": "Sadəcə örtük deyil.", "lineTwo": "Yeni kimlikdir.", "body": "Hər səth avtomobilin necə qəbul edildiyini dəyişir. Vinilə materialı, proporsiyası və son görünüşü düşünülmüş dizayn qərarı kimi yanaşırıq."},
+    "projects": {"index": "02 / Seçilmiş işlər", "heading": "Forma yenidən müəyyən edilir.", "intro": "İlkin vizual istiqamət. Real VINIL DESIGN layihələri bu demo materialları əvəz edəcək.", "demo": "Demo vizual", "view": "Layihəyə bax", "items": [
+      {"number": "01", "make": "Konsept", "model": "Noir GT", "category": "Tam avtomobil örtüyü", "title": "Satin Black Study", "image": "/images/demo/project-satin-black.png"},
+      {"number": "02", "make": "Konsept", "model": "Aero S", "category": "Səth araşdırması", "title": "Graphite Precision", "image": "/images/demo/project-graphite.png"},
+      {"number": "03", "make": "Konsept", "model": "Apex", "category": "Editorial konsept", "title": "Blackline Form", "image": "/images/demo/hero-poster.png"}
+    ]},
+    "instagram": {"index": "Instagram / @vinildesign", "heading": "Ən son işlərimiz Instagram-dadır.", "body": "Yeni layihələrə, tətbiq prosesinə və detallara birbaşa Instagram profilimizdə baxın.", "button": "Instagram-da bax", "itemLabel": "Instagram-da aç"},
+    "services": {"index": "03 / Xidmətlər", "heading": "Bir sənət. Hər detalda dəqiqlik.", "note": "Yalnız təsdiqlənmiş xidmət göstərilir. Digər xidmətlər təsdiqdən sonra əlavə edilə bilər.", "items": [{"number": "01", "title": "Vinil üzləmə", "description": "Daha fərdi görünüş üçün dəqiq yeni səth. Material, tekstura və tətbiq detalları konsultasiya zamanı müəyyən edilir."}]},
+    "about": {"index": "04 / Studiya", "heading": "Dəqiqlik estetikadır.", "body": "VINIL DESIGN Bakıda yerləşən avtomobil vinil və stilinq studiyasıdır. Yanaşmamız bir fikrə əsaslanır: hər dəyişiklik avtomobilin ayrılmaz hissəsi kimi görünməlidir.", "note": "Studiya fotoları və təsdiqlənmiş biznes məlumatları əlavə edilməlidir."},
+    "process": {"index": "05 / Proses", "heading": "İlk baxışdan son xəttə qədər düşünülmüş yanaşma.", "items": [
+      {"number": "01", "title": "Konsultasiya", "description": "Avtomobilin xarakterini, məqsədi və material istiqamətini müəyyən edirik."},
+      {"number": "02", "title": "Hazırlıq", "description": "Səthləri və detalları nəzarətli tətbiq üçün hazırlayırıq."},
+      {"number": "03", "title": "Tətbiq", "description": "Kənarlara, gərginliyə və səthin bütövlüyünə diqqət yetiririk."},
+      {"number": "04", "title": "Son yoxlama", "description": "Avtomobil təhvil verilməzdən əvvəl bütün səthi yoxlayırıq."}
+    ], "note": "İlkin iş prosesi — studiya tərəfindən təsdiqlənməlidir."},
+    "cta": {"eyebrow": "Söhbətə başlayaq", "lineOne": "Sizin avtomobil.", "lineTwo": "Sizin kimlik.", "button": "Layihəni müzakirə et", "whatsapp": "WhatsApp", "instagram": "Instagram"},
+    "footer": {"tagline": "Avtomobil stilinq studiyası", "location": "Bakı, Azərbaycan", "contactPending": "Əlaqə məlumatları təsdiq gözləyir", "privacy": "Məxfilik siyasəti", "rights": "VINIL DESIGN. Bütün hüquqlar qorunur."}
+  }
+}

@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VINIL DESIGN
 
-## Getting Started
+Premium multilingual automotive website for VINIL DESIGN, built with Next.js App Router.
 
-First, run the development server:
+## Current scope
+
+Implemented Phase 1 (foundation) and Phase 2 (cinematic homepage):
+
+- Azerbaijani, Russian and English routes
+- responsive header and mobile navigation
+- cinematic responsive hero video with a static reduced-motion/data-saving fallback
+- intro scene that reveals navigation and content on first interaction or after five seconds
+- Instagram portfolio handoff to `@vinildesign`
+- editorial homepage sections
+- GSAP entrance, reveal and parallax animation
+- reduced-motion support
+- localized metadata and language alternates
+
+The public project pages, contact form, Supabase integration and admin dashboard belong to later phases.
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000/az`. Production validation:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run lint
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Required production assets
 
-## Learn More
+The following approved business assets are connected:
 
-To learn more about Next.js, take a look at the following resources:
+- `public/branding/vinil-design-logo.svg`
+- `public/videos/vinil-hero.mp4`
+- `public/videos/vinil-hero-mobile.mp4`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Still required for production:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `public/images/hero-poster.webp`
+- real project and studio photography
+- verified phone, WhatsApp and address
 
-## Deploy on Vercel
+The current automotive photography remains development material. Replace it with approved project photography before production.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Generated demo imagery
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Temporary automotive visuals in `public/images/demo/` were generated specifically for this prototype. They do not represent completed VINIL DESIGN projects.
