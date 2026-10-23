@@ -36,7 +36,7 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
     const onKeyDown = (event: KeyboardEvent) => {
       if (["ArrowDown", "PageDown", " ", "Enter"].includes(event.key)) enterSite();
     };
-    const timer = window.setTimeout(enterSite, 5000);
+    const timer = window.setTimeout(enterSite, 1200);
 
     window.addEventListener("wheel", enterSite, { passive: true, once: true });
     window.addEventListener("touchmove", enterSite, { passive: true, once: true });
@@ -72,15 +72,14 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
 
       const hero = gsap.timeline({ defaults: { ease: "power3.out" } });
       hero
-        .to(".intro-logo", { scale: 0.72, autoAlpha: 0, duration: 0.65 })
+        .to(".intro-logo", { autoAlpha: 0, duration: 0.7, ease: "power2.inOut" })
         .to(
           ".intro-overlay",
-          { autoAlpha: 0, duration: 0.5, onComplete: () => setIntroComplete(true) },
-          "-=0.3",
+          { autoAlpha: 0, duration: 0.7, ease: "power2.inOut", onComplete: () => setIntroComplete(true) },
+          "<",
         )
-        .fromTo(".site-header", { y: -20, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.65 }, "-=0.22")
-        .fromTo("[data-hero='eyebrow']", { y: 16, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.5 }, "-=0.28")
-        .fromTo("[data-hero='line']", { yPercent: 115 }, { yPercent: 0, duration: 0.85, stagger: 0.1 }, "-=0.18")
+        .set(".site-header", { autoAlpha: 1 })
+        .fromTo("[data-hero='line']", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.45, stagger: 0.08 })
         .fromTo("[data-hero='detail']", { y: 18, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.6, stagger: 0.07 }, "-=0.35");
 
       gsap.utils.toArray<HTMLElement>("[data-reveal]").forEach((element) => {
@@ -131,9 +130,6 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
 
           <div className="hero__content page-shell">
             <div className="hero__copy">
-              <p className="eyebrow" data-hero="eyebrow">
-                <span /> {copy.hero.eyebrow}
-              </p>
               <h1 id="hero-title">
                 <span className="hero__title-mask"><span data-hero="line">{copy.hero.titleTop}</span></span>
                 <span className="hero__title-mask"><span data-hero="line">{copy.hero.titleBottom}</span></span>
@@ -171,7 +167,6 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
 
         <section className="statement section-pad" id="philosophy">
           <div className="page-shell">
-            <p className="section-index" data-reveal>{copy.statement.index}</p>
             <div className="statement__layout">
               <h2 data-reveal>
                 <span>{copy.statement.lineOne}</span>
@@ -186,7 +181,6 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
           <div className="page-shell">
             <div className="section-heading" data-reveal>
               <div>
-                <p className="section-index">{copy.projects.index}</p>
                 <h2>{copy.projects.heading}</h2>
               </div>
               <p>{copy.projects.intro}</p>
@@ -211,7 +205,6 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
                       />
                     </div>
                     <div className="project-card__meta">
-                      <span>{project.number}</span>
                       <div><p>{project.make} / {project.model}</p><h3>{project.title}</h3></div>
                       <p>{project.category}</p>
                       <ArrowUpRight size={22} strokeWidth={1.4} />
@@ -223,10 +216,75 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
           </div>
         </section>
 
+        <section className="services section-pad" id="services">
+          <div className="page-shell">
+            <div className="section-heading services__heading" data-reveal>
+              <div><h2>{copy.services.heading}</h2></div>
+              <p>{copy.services.note}</p>
+            </div>
+            {copy.services.items.map((service) => (
+              <article className="service-row" key={service.number} data-reveal>
+                <h3>{service.title}</h3>
+                <p>{service.description}</p>
+                <ArrowDownRight size={26} strokeWidth={1.2} />
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="about section-pad" id="about">
+          <div className="page-shell about__grid">
+            <div className="about__media" data-reveal>
+              <Image
+                src="/images/demo/project-satin-black.png"
+                alt="VINIL DESIGN studio development visual"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                data-parallax
+              />
+              <span>{copy.about.note}</span>
+            </div>
+            <div className="about__content" data-reveal>
+              <h2>{copy.about.heading}</h2>
+              <p className="section-copy">{copy.about.body}</p>
+              <div className="material-swatch" aria-hidden="true"><i /><i /><i /></div>
+            </div>
+          </div>
+        </section>
+
+        <section className="process section-pad">
+          <div className="page-shell">
+            <div className="section-heading process__heading" data-reveal>
+              <div><h2>{copy.process.heading}</h2></div>
+              <p>{copy.process.note}</p>
+            </div>
+            <div className="process-grid">
+              {copy.process.items.map((item) => (
+                <article key={item.number} data-reveal>
+                  <h3>{item.title}</h3>
+                  <p>{item.description}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="closing" id="contact">
+          <div className="page-shell closing__content" data-reveal>
+            <h2><span>{copy.cta.lineOne}</span><span>{copy.cta.lineTwo}</span></h2>
+            <div className="closing__actions">
+              <a className="button button--light" href="#contact-details">{copy.cta.button}<ArrowUpRight size={17} /></a>
+              <div className="pending-socials" aria-label={copy.footer.contactPending}>
+                <span>{copy.cta.whatsapp}</span>
+                <a href={siteLinks.instagram} target="_blank" rel="noreferrer">{copy.cta.instagram}</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="instagram-section section-pad" aria-labelledby="instagram-title">
           <div className="page-shell">
             <div className="instagram-section__intro" data-reveal>
-              <p className="section-index">{copy.instagram.index}</p>
               <h2 id="instagram-title">{copy.instagram.heading}</h2>
               <div>
                 <p>{copy.instagram.body}</p>
@@ -250,78 +308,6 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
                   <span><Instagram size={18} strokeWidth={1.5} /></span>
                 </a>
               ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="services section-pad" id="services">
-          <div className="page-shell">
-            <div className="section-heading services__heading" data-reveal>
-              <div><p className="section-index">{copy.services.index}</p><h2>{copy.services.heading}</h2></div>
-              <p>{copy.services.note}</p>
-            </div>
-            {copy.services.items.map((service) => (
-              <article className="service-row" key={service.number} data-reveal>
-                <span>{service.number}</span>
-                <h3>{service.title}</h3>
-                <p>{service.description}</p>
-                <ArrowDownRight size={26} strokeWidth={1.2} />
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section className="about section-pad" id="about">
-          <div className="page-shell about__grid">
-            <div className="about__media" data-reveal>
-              <Image
-                src="/images/demo/project-satin-black.png"
-                alt="VINIL DESIGN studio development visual"
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                data-parallax
-              />
-              <span>{copy.about.note}</span>
-            </div>
-            <div className="about__content" data-reveal>
-              <p className="section-index">{copy.about.index}</p>
-              <h2>{copy.about.heading}</h2>
-              <p className="section-copy">{copy.about.body}</p>
-              <div className="material-swatch" aria-hidden="true"><i /><i /><i /></div>
-            </div>
-          </div>
-        </section>
-
-        <section className="process section-pad">
-          <div className="page-shell">
-            <div className="section-heading process__heading" data-reveal>
-              <div><p className="section-index">{copy.process.index}</p><h2>{copy.process.heading}</h2></div>
-              <p>{copy.process.note}</p>
-            </div>
-            <div className="process-grid">
-              {copy.process.items.map((item) => (
-                <article key={item.number} data-reveal>
-                  <span>{item.number}</span>
-                  <h3>{item.title}</h3>
-                  <p>{item.description}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="closing" id="contact">
-          <Image src="/images/demo/hero-poster.png" alt="" fill sizes="100vw" data-parallax />
-          <div className="closing__shade" aria-hidden="true" />
-          <div className="page-shell closing__content" data-reveal>
-            <p className="eyebrow"><span /> {copy.cta.eyebrow}</p>
-            <h2><span>{copy.cta.lineOne}</span><span>{copy.cta.lineTwo}</span></h2>
-            <div className="closing__actions">
-              <a className="button button--light" href="#contact-details">{copy.cta.button}<ArrowUpRight size={17} /></a>
-              <div className="pending-socials" aria-label={copy.footer.contactPending}>
-                <span>{copy.cta.whatsapp}</span>
-                <a href={siteLinks.instagram} target="_blank" rel="noreferrer">{copy.cta.instagram}</a>
-              </div>
             </div>
           </div>
         </section>

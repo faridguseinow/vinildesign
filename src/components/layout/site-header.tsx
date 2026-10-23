@@ -111,9 +111,8 @@ export function SiteHeader({
           </button>
         </div>
         <nav className="mobile-menu__nav page-shell" aria-label="Mobile navigation">
-          {links.map(([label, href], index) => (
+          {links.map(([label, href]) => (
             <a href={href} key={href} onClick={() => setIsOpen(false)}>
-              <span>0{index + 1}</span>
               {label}
             </a>
           ))}

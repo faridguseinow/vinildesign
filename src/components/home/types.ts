@@ -25,7 +25,6 @@ export type ProcessItem = {
 export type HomeCopy = {
   nav: NavCopy;
   hero: {
-    eyebrow: string;
     titleTop: string;
     titleBottom: string;
     subtitle: string;
@@ -35,13 +34,11 @@ export type HomeCopy = {
     scroll: string;
   };
   statement: {
-    index: string;
     lineOne: string;
     lineTwo: string;
     body: string;
   };
   projects: {
-    index: string;
     heading: string;
     intro: string;
     demo: string;
@@ -49,32 +46,27 @@ export type HomeCopy = {
     items: ProjectItem[];
   };
   instagram: {
-    index: string;
     heading: string;
     body: string;
     button: string;
     itemLabel: string;
   };
   services: {
-    index: string;
     heading: string;
     note: string;
     items: ProcessItem[];
   };
   about: {
-    index: string;
     heading: string;
     body: string;
     note: string;
   };
   process: {
-    index: string;
     heading: string;
     items: ProcessItem[];
     note: string;
   };
   cta: {
-    eyebrow: string;
     lineOne: string;
     lineTwo: string;
     button: string;

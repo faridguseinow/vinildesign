@@ -1,24 +1,32 @@
 {
-  "Metadata": {"title": "Avtomobil stilinq studiyası", "description": "Bakıda avtomobil vinil üzləmə və stilinq studiyasının kinematoqrafik rəqəmsal təcrübəsi."},
+  "Metadata": {"title": "Vinil, PPF və avtomobil detallinqi", "description": "Bakıda vinil üzləmə, XPEL və Llumar PPF, cilalama, keramik örtük və avtomobil detallinqi."},
   "Home": {
     "nav": {"projects": "Layihələr", "services": "Xidmətlər", "about": "Haqqımızda", "contact": "Əlaqə", "menu": "Menyu", "close": "Bağla"},
-    "hero": {"eyebrow": "Avtomobil stilinq studiyası", "titleTop": "Orijinaldan", "titleBottom": "daha irəli.", "subtitle": "Dəqiqlik. Xarakter. Performans.", "primary": "İşlərimizə baxın", "secondary": "Əlaqə saxlayın", "location": "Bakı — Azərbaycan", "scroll": "Davam etmək üçün sürüşdürün"},
-    "statement": {"index": "01 / Fəlsəfə", "lineOne": "Sadəcə örtük deyil.", "lineTwo": "Yeni kimlikdir.", "body": "Hər səth avtomobilin necə qəbul edildiyini dəyişir. Vinilə materialı, proporsiyası və son görünüşü düşünülmüş dizayn qərarı kimi yanaşırıq."},
-    "projects": {"index": "02 / Seçilmiş işlər", "heading": "Forma yenidən müəyyən edilir.", "intro": "İlkin vizual istiqamət. Real VINIL DESIGN layihələri bu demo materialları əvəz edəcək.", "demo": "Demo vizual", "view": "Layihəyə bax", "items": [
-      {"number": "01", "make": "Konsept", "model": "Noir GT", "category": "Tam avtomobil örtüyü", "title": "Satin Black Study", "image": "/images/demo/project-satin-black.png"},
-      {"number": "02", "make": "Konsept", "model": "Aero S", "category": "Səth araşdırması", "title": "Graphite Precision", "image": "/images/demo/project-graphite.png"},
-      {"number": "03", "make": "Konsept", "model": "Apex", "category": "Editorial konsept", "title": "Blackline Form", "image": "/images/demo/hero-poster.png"}
+    "hero": {"titleTop": "Vinil. Qoruma.", "titleBottom": "Detallinq.", "subtitle": "Avtomobil üçün peşəkar örtük və qulluq xidmətləri.", "primary": "İşlərimizə baxın", "secondary": "Əlaqə saxlayın", "location": "Bakı — Azərbaycan", "scroll": "Davam etmək üçün aşağı sürüşdürün"},
+    "statement": {"lineOne": "Görünüşü yeniləyirik.", "lineTwo": "Səthi qoruyuruq.", "body": "Vinil üzləmə, XPEL və Llumar PPF, cilalama, keramik örtük və detallı təmizlik. Hər xidmət avtomobilin səthinə və istədiyiniz nəticəyə uyğun seçilir."},
+    "projects": {"heading": "Hər səth üçün düzgün həll.", "intro": "Vinil, PPF və səth qulluğu üzrə real işlərimizi Instagram-da izləyin.", "demo": "Nümayiş vizualı", "view": "Instagram-da bax", "items": [
+      {"number": "01", "make": "XPEL / LLUMAR", "model": "PPF", "category": "Qoruyucu plyonka", "title": "Boya səthinin qorunması", "image": "/images/demo/project-satin-black.png"},
+      {"number": "02", "make": "VINIL DESIGN", "model": "WRAP", "category": "Rəng və tekstura seçimi", "title": "Vinil üzləmə", "image": "/images/demo/project-graphite.png"},
+      {"number": "03", "make": "DETAILING", "model": "CARE", "category": "Cilalama / keramika", "title": "Səthin bərpası və qorunması", "image": "/images/demo/hero-poster.png"}
     ]},
-    "instagram": {"index": "Instagram / @vinildesign", "heading": "Ən son işlərimiz Instagram-dadır.", "body": "Yeni layihələrə, tətbiq prosesinə və detallara birbaşa Instagram profilimizdə baxın.", "button": "Instagram-da bax", "itemLabel": "Instagram-da aç"},
-    "services": {"index": "03 / Xidmətlər", "heading": "Bir sənət. Hər detalda dəqiqlik.", "note": "Yalnız təsdiqlənmiş xidmət göstərilir. Digər xidmətlər təsdiqdən sonra əlavə edilə bilər.", "items": [{"number": "01", "title": "Vinil üzləmə", "description": "Daha fərdi görünüş üçün dəqiq yeni səth. Material, tekstura və tətbiq detalları konsultasiya zamanı müəyyən edilir."}]},
-    "about": {"index": "04 / Studiya", "heading": "Dəqiqlik estetikadır.", "body": "VINIL DESIGN Bakıda yerləşən avtomobil vinil və stilinq studiyasıdır. Yanaşmamız bir fikrə əsaslanır: hər dəyişiklik avtomobilin ayrılmaz hissəsi kimi görünməlidir.", "note": "Studiya fotoları və təsdiqlənmiş biznes məlumatları əlavə edilməlidir."},
-    "process": {"index": "05 / Proses", "heading": "İlk baxışdan son xəttə qədər düşünülmüş yanaşma.", "items": [
-      {"number": "01", "title": "Konsultasiya", "description": "Avtomobilin xarakterini, məqsədi və material istiqamətini müəyyən edirik."},
-      {"number": "02", "title": "Hazırlıq", "description": "Səthləri və detalları nəzarətli tətbiq üçün hazırlayırıq."},
-      {"number": "03", "title": "Tətbiq", "description": "Kənarlara, gərginliyə və səthin bütövlüyünə diqqət yetiririk."},
-      {"number": "04", "title": "Son yoxlama", "description": "Avtomobil təhvil verilməzdən əvvəl bütün səthi yoxlayırıq."}
-    ], "note": "İlkin iş prosesi — studiya tərəfindən təsdiqlənməlidir."},
-    "cta": {"eyebrow": "Söhbətə başlayaq", "lineOne": "Sizin avtomobil.", "lineTwo": "Sizin kimlik.", "button": "Layihəni müzakirə et", "whatsapp": "WhatsApp", "instagram": "Instagram"},
-    "footer": {"tagline": "Avtomobil stilinq studiyası", "location": "Bakı, Azərbaycan", "contactPending": "Əlaqə məlumatları təsdiq gözləyir", "privacy": "Məxfilik siyasəti", "rights": "VINIL DESIGN. Bütün hüquqlar qorunur."}
+    "instagram": {"heading": "Real işlərimizi Instagram-da izləyin.", "body": "Yeni avtomobillər, tətbiq prosesi və hazır nəticələr mütəmadi olaraq Instagram profilimizdə paylaşılır.", "button": "Instagram-da bax", "itemLabel": "Instagram-da aç"},
+    "services": {"heading": "Avtomobiliniz üçün kompleks xidmətlər.", "note": "Uyğun xidmət avtomobilin vəziyyətinə və istədiyiniz nəticəyə əsasən müəyyən edilir.", "items": [
+      {"number": "01", "title": "XPEL / Llumar PPF", "description": "Boya səthini daş izləri, xırda cızıqlar və gündəlik aşınmadan qoruyan şəffaf və ya mat qoruyucu plyonka."},
+      {"number": "02", "title": "Vinil üzləmə", "description": "Avtomobilin rəngini və üslubunu boya müdaxiləsi olmadan dəyişən tam və ya hissəvi üzləmə."},
+      {"number": "03", "title": "Cilalama", "description": "Lak səthindəki xırda cızıqları və tutqunluğu azaldaraq parlaqlığı bərpa edən peşəkar emal."},
+      {"number": "04", "title": "Keramik örtük", "description": "Səthə parlaqlıq, hidrofob xüsusiyyət və gündəlik çirklənməyə qarşı əlavə qoruma verən örtük."},
+      {"number": "05", "title": "Quru təmizləmə", "description": "Oturacaq, döşəmə və digər salon səthlərinin materiala uyğun vasitələrlə dərin təmizlənməsi."},
+      {"number": "06", "title": "Rəngləmə", "description": "Zədələnmiş detalların rəng uyğunluğu qorunmaqla lokal və ya tam bərpası."},
+      {"number": "07", "title": "Avtomobil brendinqi", "description": "Kommersiya avtomobilləri üçün loqo, qrafika və reklam vinilinin hazırlanması və tətbiqi."}
+    ]},
+    "about": {"heading": "Vinil və qoruma üzrə təcrübə.", "body": "VINIL DESIGN 2010-cu ildən Bakıda avtomobillər üçün vinil, qoruyucu plyonka və detallinq xidmətləri göstərir. Məqsədimiz səthi düzgün hazırlamaq, materialı dəqiq tətbiq etmək və səliqəli nəticə təqdim etməkdir.", "note": "Nümayiş vizualı — real studiya fotosu ilə əvəz ediləcək."},
+    "process": {"heading": "İş prosesi necə qurulur?", "items": [
+      {"number": "01", "title": "Baxış", "description": "Avtomobilin səthini, mövcud vəziyyətini və görüləcək işi qiymətləndiririk."},
+      {"number": "02", "title": "Seçim", "description": "Məqsədə uyğun materialı, rəngi və tətbiq sahəsini birlikdə müəyyən edirik."},
+      {"number": "03", "title": "Hazırlıq və tətbiq", "description": "Səthi hazırlayır, materialı texnologiyaya uyğun və dəqiq şəkildə tətbiq edirik."},
+      {"number": "04", "title": "Yoxlama və təhvil", "description": "Hazır işi bütün detallar üzrə yoxlayır və avtomobili təhvil veririk."}
+    ], "note": "İş mərhələləri seçilən xidmətə görə dəyişə bilər."},
+    "cta": {"lineOne": "Görünüşü yenilə.", "lineTwo": "Səthi qoru.", "button": "Xidməti müzakirə et", "whatsapp": "WhatsApp", "instagram": "Instagram"},
+    "footer": {"tagline": "Detallinq • Vinil • XPEL / Llumar PPF", "location": "Bakı, Azərbaycan", "contactPending": "Əlaqə məlumatları təsdiq gözləyir", "privacy": "Məxfilik siyasəti", "rights": "VINIL DESIGN. Bütün hüquqlar qorunur."}
   }
 }

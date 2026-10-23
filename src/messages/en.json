@@ -5,21 +5,29 @@
   },
   "Home": {
     "nav": {"projects": "Projects", "services": "Services", "about": "About", "contact": "Contact", "menu": "Menu", "close": "Close"},
-    "hero": {"eyebrow": "Automotive styling studio", "titleTop": "Beyond the", "titleBottom": "original.", "subtitle": "Precision. Identity. Performance.", "primary": "Explore our work", "secondary": "Get in touch", "location": "Baku — Azerbaijan", "scroll": "Scroll to explore"},
-    "statement": {"index": "01 / Philosophy", "lineOne": "Not just a wrap.", "lineTwo": "A new identity.", "body": "Every surface changes how a vehicle is read. We approach vinyl as a deliberate design decision — considered in material, proportion and finish."},
+    "hero": {"titleTop": "Beyond the", "titleBottom": "original.", "subtitle": "Precision. Identity. Performance.", "primary": "Explore our work", "secondary": "Get in touch", "location": "Baku — Azerbaijan", "scroll": "Scroll to explore"},
+    "statement": {"lineOne": "Not just a wrap.", "lineTwo": "A new identity.", "body": "Every surface changes how a vehicle is read. We approach vinyl as a deliberate design decision — considered in material, proportion and finish."},
     "projects": {
-      "index": "02 / Selected work", "heading": "Form, redefined.", "intro": "A preview of the visual direction. Real VINIL DESIGN projects will replace these development studies.", "demo": "Demo visualization", "view": "View project",
+      "heading": "The right solution for every surface.", "intro": "See our real vinyl, PPF and surface-care work on Instagram.", "demo": "Demo visualization", "view": "View on Instagram",
       "items": [
-        {"number": "01", "make": "Concept", "model": "Noir GT", "category": "Full vehicle wrap", "title": "Satin Black Study", "image": "/images/demo/project-satin-black.png"},
-        {"number": "02", "make": "Concept", "model": "Aero S", "category": "Surface study", "title": "Graphite Precision", "image": "/images/demo/project-graphite.png"},
-        {"number": "03", "make": "Concept", "model": "Apex", "category": "Editorial study", "title": "Blackline Form", "image": "/images/demo/hero-poster.png"}
+        {"number": "01", "make": "XPEL / LLUMAR", "model": "PPF", "category": "Paint protection film", "title": "Paint surface protection", "image": "/images/demo/project-satin-black.png"},
+        {"number": "02", "make": "VINIL DESIGN", "model": "WRAP", "category": "Colour and texture", "title": "Vinyl wrapping", "image": "/images/demo/project-graphite.png"},
+        {"number": "03", "make": "DETAILING", "model": "CARE", "category": "Polishing / ceramic", "title": "Surface restoration and protection", "image": "/images/demo/hero-poster.png"}
       ]
     },
-    "instagram": {"index": "Instagram / @vinildesign", "heading": "The latest work lives on Instagram.", "body": "Explore new projects, application process and close-up details directly on our Instagram profile.", "button": "View Instagram", "itemLabel": "Open on Instagram"},
-    "services": {"index": "03 / Services", "heading": "One craft. Every detail.", "note": "Only the confirmed service is shown. Additional services can be added when approved.", "items": [{"number": "01", "title": "Vinyl wrapping", "description": "A precise new surface for a more individual presence. Material, finish and application details are defined during consultation."}]},
-    "about": {"index": "04 / The studio", "heading": "Precision is the aesthetic.", "body": "VINIL DESIGN is an automotive vinyl and styling studio based in Baku. The studio is built around a focused idea: every transformation should feel coherent with the vehicle, not applied on top of it.", "note": "Studio imagery and verified business details to be added."},
+    "instagram": {"heading": "The latest work lives on Instagram.", "body": "Explore new projects, application process and close-up details directly on our Instagram profile.", "button": "View Instagram", "itemLabel": "Open on Instagram"},
+    "services": {"heading": "Complete automotive care.", "note": "We recommend the right service for the vehicle's condition and the result you want.", "items": [
+      {"number": "01", "title": "XPEL / Llumar PPF", "description": "Clear or matte paint protection film against stone chips, light scratches and everyday wear."},
+      {"number": "02", "title": "Vinyl wrapping", "description": "A full or partial colour and style transformation without altering the factory paint."},
+      {"number": "03", "title": "Polishing", "description": "Professional treatment that reduces light defects and restores gloss to the clear coat."},
+      {"number": "04", "title": "Ceramic coating", "description": "Added gloss, hydrophobic performance and surface protection against everyday contamination."},
+      {"number": "05", "title": "Interior deep cleaning", "description": "Deep cleaning of seats, flooring and interior surfaces using material-appropriate products."},
+      {"number": "06", "title": "Paintwork", "description": "Local or complete restoration of damaged panels with accurate colour matching."},
+      {"number": "07", "title": "Vehicle branding", "description": "Design and application of logos, graphics and advertising vinyl for commercial vehicles."}
+    ]},
+    "about": {"heading": "Precision is the aesthetic.", "body": "VINIL DESIGN is an automotive vinyl and styling studio based in Baku. The studio is built around a focused idea: every transformation should feel coherent with the vehicle, not applied on top of it.", "note": "Studio imagery and verified business details to be added."},
     "process": {
-      "index": "05 / Process", "heading": "Considered from first look to final line.",
+      "heading": "Considered from first look to final line.",
       "items": [
         {"number": "01", "title": "Consultation", "description": "We align on the vehicle, intended character and material direction."},
         {"number": "02", "title": "Preparation", "description": "Surfaces and details are prepared for a controlled application."},
@@ -28,7 +36,7 @@
       ],
       "note": "Illustrative workflow — subject to studio confirmation."
     },
-    "cta": {"eyebrow": "Start a conversation", "lineOne": "Your car.", "lineTwo": "Your identity.", "button": "Discuss your project", "whatsapp": "WhatsApp", "instagram": "Instagram"},
+    "cta": {"lineOne": "Your car.", "lineTwo": "Your identity.", "button": "Discuss your project", "whatsapp": "WhatsApp", "instagram": "Instagram"},
     "footer": {"tagline": "Automotive styling studio", "location": "Baku, Azerbaijan", "contactPending": "Contact details pending verification", "privacy": "Privacy policy", "rights": "VINIL DESIGN. All rights reserved."}
   }
 }
