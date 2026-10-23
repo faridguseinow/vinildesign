@@ -2,12 +2,13 @@
   "Metadata": {"title": "Vinil, PPF və avtomobil detallinqi", "description": "Bakıda vinil üzləmə, XPEL və Llumar PPF, cilalama, keramik örtük və avtomobil detallinqi."},
   "Home": {
     "nav": {"projects": "Layihələr", "services": "Xidmətlər", "about": "Haqqımızda", "contact": "Əlaqə", "menu": "Menyu", "close": "Bağla"},
-    "hero": {"titleTop": "Vinil. Qoruma.", "titleBottom": "Detallinq.", "subtitle": "Avtomobil üçün peşəkar örtük və qulluq xidmətləri.", "primary": "İşlərimizə baxın", "secondary": "Əlaqə saxlayın", "location": "Bakı — Azərbaycan", "scroll": "Davam etmək üçün aşağı sürüşdürün"},
+    "hero": {"titleTop": "Vinil. PPF.", "titleBottom": "Detailing.", "subtitle": "Avtomobil üçün peşəkar örtük və qulluq xidmətləri.", "primary": "İşlərimizə baxın", "secondary": "Əlaqə saxlayın", "location": "Bakı — Azərbaycan", "scroll": "Davam etmək üçün aşağı sürüşdürün"},
     "statement": {"lineOne": "Görünüşü yeniləyirik.", "lineTwo": "Səthi qoruyuruq.", "body": "Vinil üzləmə, XPEL və Llumar PPF, cilalama, keramik örtük və detallı təmizlik. Hər xidmət avtomobilin səthinə və istədiyiniz nəticəyə uyğun seçilir."},
     "projects": {"heading": "Hər səth üçün düzgün həll.", "intro": "Vinil, PPF və səth qulluğu üzrə real işlərimizi Instagram-da izləyin.", "demo": "Nümayiş vizualı", "view": "Instagram-da bax", "items": [
       {"number": "01", "make": "XPEL / LLUMAR", "model": "PPF", "category": "Qoruyucu plyonka", "title": "Boya səthinin qorunması", "image": "/images/demo/project-satin-black.png"},
-      {"number": "02", "make": "VINIL DESIGN", "model": "WRAP", "category": "Rəng və tekstura seçimi", "title": "Vinil üzləmə", "image": "/images/demo/project-graphite.png"},
-      {"number": "03", "make": "DETAILING", "model": "CARE", "category": "Cilalama / keramika", "title": "Səthin bərpası və qorunması", "image": "/images/demo/hero-poster.png"}
+      {"number": "02", "make": "VINIL DESIGN", "model": "Vinil üzləmə", "category": "Tam və ya hissəvi üzləmə", "title": "Avtomobilin rəngini və üslubunu dəyişmək", "image": "/images/demo/project-matte-black.png"},
+      {"number": "03", "make": "VINIL DESIGN", "model": "Cilalama", "category": "Səth emalı", "title": "Parlaqlığı bərpa etmək və xırda cızıqları azaltmaq", "image": "/images/demo/project-polish.png"},
+      {"number": "04", "make": "VINIL DESIGN", "model": "Keramik örtük", "category": "Səth qoruyucu örtük", "title": "Parlaqlıq, hidrofob xüsusiyyət və əlavə qoruma təmin etmək", "image": "/images/demo/project-ceramic-coating.png"}
     ]},
     "instagram": {"heading": "Real işlərimizi Instagram-da izləyin.", "body": "Yeni avtomobillər, tətbiq prosesi və hazır nəticələr mütəmadi olaraq Instagram profilimizdə paylaşılır.", "button": "Instagram-da bax", "itemLabel": "Instagram-da aç"},
     "services": {"heading": "Avtomobiliniz üçün kompleks xidmətlər.", "note": "Uyğun xidmət avtomobilin vəziyyətinə və istədiyiniz nəticəyə əsasən müəyyən edilir.", "items": [
@@ -15,11 +16,11 @@
       {"number": "02", "title": "Vinil üzləmə", "description": "Avtomobilin rəngini və üslubunu boya müdaxiləsi olmadan dəyişən tam və ya hissəvi üzləmə."},
       {"number": "03", "title": "Cilalama", "description": "Lak səthindəki xırda cızıqları və tutqunluğu azaldaraq parlaqlığı bərpa edən peşəkar emal."},
       {"number": "04", "title": "Keramik örtük", "description": "Səthə parlaqlıq, hidrofob xüsusiyyət və gündəlik çirklənməyə qarşı əlavə qoruma verən örtük."},
-      {"number": "05", "title": "Quru təmizləmə", "description": "Oturacaq, döşəmə və digər salon səthlərinin materiala uyğun vasitələrlə dərin təmizlənməsi."},
-      {"number": "06", "title": "Rəngləmə", "description": "Zədələnmiş detalların rəng uyğunluğu qorunmaqla lokal və ya tam bərpası."},
+      {"number": "05", "title": "Kimyəvi təmizləmə", "description": "Oturacaq, döşəmə və digər salon səthlərinin materiala uyğun vasitələrlə dərin təmizlənməsi."},
+      {"number": "06", "title": "Rəngsaz işləri", "description": "Zədələnmiş detalların rəng uyğunluğu qorunmaqla lokal və ya tam bərpası."},
       {"number": "07", "title": "Avtomobil brendinqi", "description": "Kommersiya avtomobilləri üçün loqo, qrafika və reklam vinilinin hazırlanması və tətbiqi."}
     ]},
-    "about": {"heading": "Vinil və qoruma üzrə təcrübə.", "body": "VINIL DESIGN 2010-cu ildən Bakıda avtomobillər üçün vinil, qoruyucu plyonka və detallinq xidmətləri göstərir. Məqsədimiz səthi düzgün hazırlamaq, materialı dəqiq tətbiq etmək və səliqəli nəticə təqdim etməkdir.", "note": "Nümayiş vizualı — real studiya fotosu ilə əvəz ediləcək."},
+    "about": {"heading": "Illərin təcrübəsi.", "body": "VINIL DESIGN 2010-cu ildən Bakıda avtomobillər üçün vinil, qoruyucu plyonka və detallinq xidmətləri göstərir. Məqsədimiz səthi düzgün hazırlamaq, materialı dəqiq tətbiq etmək və səliqəli nəticə təqdim etməkdir.", "note": "Nümayiş vizualı — real studiya fotosu ilə əvəz ediləcək."},
     "process": {"heading": "İş prosesi necə qurulur?", "items": [
       {"number": "01", "title": "Baxış", "description": "Avtomobilin səthini, mövcud vəziyyətini və görüləcək işi qiymətləndiririk."},
       {"number": "02", "title": "Seçim", "description": "Məqsədə uyğun materialı, rəngi və tətbiq sahəsini birlikdə müəyyən edirik."},
