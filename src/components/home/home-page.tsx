@@ -110,16 +110,8 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
       <main>
         <section className="hero" aria-labelledby="hero-title">
           <div className="hero__media" aria-hidden="true">
-            <Image
-              src="/images/demo/hero-poster.png"
-              alt=""
-              fill
-              priority
-              sizes="100vw"
-              className="hero__image"
-            />
             {canPlayVideo && (
-              <video autoPlay muted loop playsInline preload="metadata" poster="/images/demo/hero-poster.png">
+              <video autoPlay muted loop playsInline preload="metadata">
                 <source media="(max-width: 767px)" src="/videos/vinil-hero-mobile.mp4" type="video/mp4" />
                 <source src="/videos/vinil-hero.mp4" type="video/mp4" />
               </video>
@@ -170,7 +162,6 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
             <div className="statement__layout">
               <h2 data-reveal>
                 <span>{copy.statement.lineOne}</span>
-                <span className="muted-line">{copy.statement.lineTwo}</span>
               </h2>
               <p className="section-copy" data-reveal>{copy.statement.body}</p>
             </div>
@@ -236,8 +227,8 @@ export function HomePage({ locale, copy }: { locale: Locale; copy: HomeCopy }) {
           <div className="page-shell about__grid">
             <div className="about__media" data-reveal>
               <Image
-                src="/images/demo/project-satin-black.png"
-                alt="VINIL DESIGN studio development visual"
+                src="/images/unsplash/studio.jpg"
+                alt={copy.about.imageAlt}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 data-parallax

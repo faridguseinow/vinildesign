@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: t("description"),
       locale,
       type: "website",
-      images: ["/images/demo/hero-poster.png"],
+      images: ["/images/unsplash/studio.jpg"],
     },
   };
 }

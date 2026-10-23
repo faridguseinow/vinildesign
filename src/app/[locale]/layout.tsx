@@ -25,8 +25,8 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} className={`${kanit.variable} antialiased`}>
-      <body>
+    <html lang={locale} className={`${kanit.variable} antialiased`} style={{ backgroundColor: "#000" }}>
+      <body style={{ backgroundColor: "#000" }}>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>

@@ -60,6 +60,7 @@ export type HomeCopy = {
     heading: string;
     body: string;
     note: string;
+    imageAlt: string;
   };
   process: {
     heading: string;

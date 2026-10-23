@@ -8,11 +8,12 @@
     "hero": {"titleTop": "Beyond the", "titleBottom": "original.", "subtitle": "Precision. Identity. Performance.", "primary": "Explore our work", "secondary": "Get in touch", "location": "Baku — Azerbaijan", "scroll": "Scroll to explore"},
     "statement": {"lineOne": "Not just a wrap.", "lineTwo": "A new identity.", "body": "Every surface changes how a vehicle is read. We approach vinyl as a deliberate design decision — considered in material, proportion and finish."},
     "projects": {
-      "heading": "The right solution for every surface.", "intro": "See our real vinyl, PPF and surface-care work on Instagram.", "demo": "Demo visualization", "view": "View on Instagram",
+      "heading": "The right solution for every surface.", "intro": "Our services are shown with real Unsplash photography. See our own work on Instagram.", "demo": "Unsplash photo", "view": "View on Instagram",
       "items": [
-        {"number": "01", "make": "XPEL / LLUMAR", "model": "PPF", "category": "Paint protection film", "title": "Paint surface protection", "image": "/images/demo/project-satin-black.png"},
-        {"number": "02", "make": "VINIL DESIGN", "model": "WRAP", "category": "Colour and texture", "title": "Vinyl wrapping", "image": "/images/demo/project-graphite.png"},
-        {"number": "03", "make": "DETAILING", "model": "CARE", "category": "Polishing / ceramic", "title": "Surface restoration and protection", "image": "/images/demo/hero-poster.png"}
+        {"number": "01", "make": "XPEL / LLUMAR", "model": "PPF", "category": "Paint protection film", "title": "Paint surface protection", "image": "/images/unsplash/ppf.jpg"},
+        {"number": "02", "make": "VINIL DESIGN", "model": "WRAP", "category": "Colour and texture", "title": "Vinyl wrapping", "image": "/images/unsplash/vinyl-wrap.jpg"},
+        {"number": "03", "make": "DETAILING", "model": "POLISH", "category": "Polishing", "title": "Restoring the surface gloss", "image": "/images/unsplash/polishing.jpg"},
+        {"number": "04", "make": "DETAILING", "model": "CERAMIC", "category": "Ceramic coating", "title": "Gloss and additional surface protection", "image": "/images/unsplash/ceramic-coating.jpg"}
       ]
     },
     "instagram": {"heading": "The latest work lives on Instagram.", "body": "Explore new projects, application process and close-up details directly on our Instagram profile.", "button": "View Instagram", "itemLabel": "Open on Instagram"},
@@ -25,7 +26,7 @@
       {"number": "06", "title": "Paintwork", "description": "Local or complete restoration of damaged panels with accurate colour matching."},
       {"number": "07", "title": "Vehicle branding", "description": "Design and application of logos, graphics and advertising vinyl for commercial vehicles."}
     ]},
-    "about": {"heading": "Precision is the aesthetic.", "body": "VINIL DESIGN is an automotive vinyl and styling studio based in Baku. The studio is built around a focused idea: every transformation should feel coherent with the vehicle, not applied on top of it.", "note": "Studio imagery and verified business details to be added."},
+    "about": {"heading": "Precision is the aesthetic.", "body": "VINIL DESIGN is an automotive vinyl and styling studio based in Baku. The studio is built around a focused idea: every transformation should feel coherent with the vehicle, not applied on top of it.", "note": "Photo: Unsplash.", "imageAlt": "A specialist working on a car in a detailing studio"},
     "process": {
       "heading": "Considered from first look to final line.",
       "items": [

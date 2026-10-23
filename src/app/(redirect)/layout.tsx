@@ -6,8 +6,8 @@ export const metadata = siteMetadata;
 
 export default function RedirectLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="az" className={`${kanit.variable} antialiased`}>
-      <body>{children}</body>
+    <html lang="az" className={`${kanit.variable} antialiased`} style={{ backgroundColor: "#000" }}>
+      <body style={{ backgroundColor: "#000" }}>{children}</body>
     </html>
   );
 }
